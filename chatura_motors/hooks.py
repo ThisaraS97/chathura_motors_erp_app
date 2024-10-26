@@ -213,3 +213,11 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"chatura_motors.auth.validate"
 # ]
+fixtures = [
+    {
+        "doctype": "Custom Script",
+        "filters": [
+            ["name", "=", "customers_outstanding_report"]
+        ]
+    }
+]
